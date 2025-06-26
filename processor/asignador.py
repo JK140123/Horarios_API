@@ -271,7 +271,7 @@ def procesar_horarios(df_input):
     # --- Crear archivo Excel ---
     wb = Workbook()
     ws1 = wb.active
-    ws1.title = "Reasignaciones"
+    ws1.title = "Asignaciones"
 
     cols_df = ["Programa", "Asignatura", "Profesor", "Fecha de inicio", "Fecha de fin", "Día de la semana",
                "Hora de inicio", "Hora de finalización", "Salón asignado", "Salón reasignado", "Hora reasignada", "Fecha fin reasignada"]
